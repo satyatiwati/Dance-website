@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 25px;
+    color: white;
+    font-size: 1.4rem;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#inropicture{
+    height: 438px;
+    background: url('https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a4a1c0;
+    font-size: 53px;
+    font-family: 'Bungee', cursive;
+    opacity: 0.89;
+}
+#navbar{
+    background-color: #4a0303;
+    padding: 25px 3px;
+    font-family: 'Bungee', cursive;
+    height: 97px;
+}
+#sponsor{
+    height: 200px;
+    background-color:#e7dfdf ;
+    margin: auto;
+    text-align: center;
+
+}
+#footer{
+    height: 40px;
+    background-color: black;
+    position: relative;
+    bottom: -48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#inropicture div.small{
+    font-size: 2.2rem;
+    font-family: 'Bungee', cursive;
+}
+#sponsor h2{
+    text-align: center;
+    padding: 23px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.8rem;
+
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+}
+#mission h2{
+    color: black;
+    text-align: center;
+}
+#mission{
+    height: 400px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    border-radius: 10px;
+    background-color: wheat;
+    height: 320px;
+    margin: 10px 20px;
+    padding: 20px;
+    display: inline-block;
+    font-family: 'Bungee', cursive;
+}
+#mission h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bungee', cursive;
+}
+div#logo{
+    width: 0px;
+    height: 0px;
+}
+#logo img{
+    width: 136px;
+    height: 96px;
+    position: absolute;
+    top: 0px;
+    filter: invert(1);
+}
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cardimg img{
+height: 206px;
+
+}
+.me{
+    height: 71%;
+    margin: 20px;
+}

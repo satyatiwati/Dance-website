@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    block scripts
+    block style
+     style(src='static\style.css')
+    body 
+     nav#navbar
+      div#logo 
+       img(src="https://cdn.pixabay.com/photo/2017/01/31/14/26/ballerina-2024547_1280.png")
+      ul
+       li #[a(href="/") Home]
+       li #[a(href="/") About]
+       li #[a(href="/contact") Contact us]
+       li #[a(href="/") Class Info]
+    block content
+    block footer
+      #footer
+       | Copyright 2020 satyaadcademy.com
